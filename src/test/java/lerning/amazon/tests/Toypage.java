@@ -13,9 +13,8 @@ public class Toypage extends BaseTest{
 	@Test	
 	public  void  Toyproduct()
 	{		
-		//serchboxtoy toy = new serchboxtoy(driver);
-
-		
+		serchboxtoy toy = new serchboxtoy(driver);
+		System.out.println("Changes done");		
 	}
 
 }
